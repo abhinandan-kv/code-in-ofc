@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="inside-container">
+        <div id="icon-div">
+          <div id="icon-img">
+            <img id="icon" src="icon.png" alt="icon" />
+          </div>
+          <h2>Reset your password</h2>
+          <p>Feel free to write your email and request and OTP!</p>
+        </div>
+        <!-- change this br to a seperate div and then div styles should be handled using combinational css like + symbol -->
+        <div id="form" style="display: flex; flex-direction: column; gap: 30px;">
+          <!-- <label for="email">Email</label><br /> -->
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <!-- <label for="password">Password</label><br /> -->
+          
+          <button type="submit">Request OTP</button>
+          <div class="otp-container">
+            <input type="text" id="op1" class="otp" maxlength="1" />
+            <input type="text" id="op2"  class="otp" maxlength="1" />
+            <input type="text" id="op3"  class="otp" maxlength="1"/>
+            <input type="text" id="op4"  class="otp" maxlength="1"/>
+            <input type="text" id="op5"  class="otp" maxlength="1"/>
+            <input type="text" id="op6"  class="otp" maxlength="1"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
