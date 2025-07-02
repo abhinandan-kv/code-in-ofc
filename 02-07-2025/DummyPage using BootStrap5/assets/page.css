@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #F0F8FF !important;
+}
+.custom-card-bg{
+  background-color: #F0F8FF !important;
+}
+.footer-bg{
+  background-color: #000000;
+}
+.custom-bg{
+  background-color: #272323;
+}
+.custom-btn{
+  background-color: #000000 !important;
+  color: #c2c2c2 !important;
+}
+
+.custom-btn:hover{
+  background-color: #272323 !important;
+  color: white !important;
+  border: 1px solid black;
+}
+
+.custom-shadow{
+  text-shadow: 2px 1px 10px rgba(0, 0, 0, 0.507);
+}

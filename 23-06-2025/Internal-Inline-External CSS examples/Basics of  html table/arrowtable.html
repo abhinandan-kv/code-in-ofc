@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arrow Table</title>
+    <style>
+      .container {
+        position: relative;
+        width: 200px;
+        height: 300px;
+        margin: 40px;
+      }
+      .card {
+        position: relative;
+        width: 120px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border: 1px solid;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        font-family: sans-serif;
+        font-size: 18px;
+        transition: 0.3s ease;
+      }
+
+      .card:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      .card:nth-child(2) {
+        position: absolute;
+        top: 70px;
+        left: 200px;
+      }
+      .card:nth-child(3) {
+        position: absolute;
+        top: 140px;
+        left: 400px;
+      }
+      .card:nth-child(4) {
+        position: absolute;
+        top: 210px;
+        left: 200px;
+      }
+      .card:nth-child(5) {
+        position: absolute;
+        top: 280px;
+        left: 0ch;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">Card 1</div>
+      <div class="card">Card 2</div>
+      <div class="card">Card 3</div>
+      <div class="card">Card 4</div>
+      <div class="card">Card 5</div>
+    </div>
+  </body>
+</html>

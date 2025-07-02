@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.css"
+    />
+    <title>FancyBox</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <a
+          data-fancybox="gallery"
+          data-src="https://lipsum.app/id/2/1600x1200"
+          data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code"
+        >
+          <img
+            src="https://lipsum.app/id/2/200x150"
+            width="200"
+            height="150"
+            alt=""
+          />
+        </a>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1600x1200">
+          <img
+            src="https://lipsum.app/id/3/200x150"
+            width="200"
+            height="150"
+            alt=""
+          />
+        </a>
+        <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1600x1200">
+          <img
+            src="https://lipsum.app/id/4/200x150"
+            width="200"
+            height="150"
+            alt=""
+          />
+        </a>
+      </div>
+      <div>
+        <a
+          href="https://vimeo.com/191947042"
+          data-fancybox
+          data-aspect-ratio="2 / 1"
+        >
+          <img
+            src="https://i.vimeocdn.com/video/604514162-856dfce17c1b211a166242452bd54deb1e27d29ba092a09a9d17e58a511d0fd6-d_640?region=us"
+            alt="Video poster"
+            width="100%"
+            height="30%"
+          />
+        </a>
+      </div>
+      <button onclick="fancyboxVidGallery()">fancyboxVidGallery</button>
+      <button>
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=Westminster+Bridge%2C+London&query_place_id=ChIJoaH8k8YEdkgRnmDd5iuUl9Y"
+          data-fancybox
+        >
+          Launch Map
+        </a>
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+.btn-custom {
+  background-color: #8b733e;
+  font-weight: 500;
+  outline: none;
+}
+.btn-custom:hover{
+    background-color: #9e7004;
+}
+
+.font-custom {
+  font-weight: 600;
+  color: rgb(73, 73, 73);
+}
+
+#file {
+  border: 1px solid #CED4DA;
+  color: #82868a;
+  width: 100%;
+  height: 38px;
+  line-height: 0;
+  font-size: small;
+}
+#file::file-selector-button {
+  margin-left: 10px;
+  margin-top: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 20px;
+  font-size: small;
+  text-align: center;
+}

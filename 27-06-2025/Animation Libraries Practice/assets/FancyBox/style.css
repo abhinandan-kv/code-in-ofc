@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: saddlebrown;
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
+
+}
+.container div {
+  display: block;
+  background-color: antiquewhite;
+}
+
+.container button{
+    margin: 4%;
+    display: block;
+    justify-items: center;
+    height: 4%;
+    font-weight: 700;
+    background-color: deeppink;
+    border: none;
+    box-shadow: black 4px 4px 10px;
+    cursor: pointer;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}

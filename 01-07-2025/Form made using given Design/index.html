@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container min-vh-100 w-50 align-content-center">
+      <div class="form-text text-danger d-flex justify-content-end">* Denotes Required Inputs</div>
+      <form action="">
+        <div class="row gap-2">
+          <div class="col">
+            <label for="name" class="form-label mt-3 font-custom">Name<sup class="text-danger">*</sup></label>
+            <input type="text" class="form-control rounded-0" placeholder="Name" id="name" required />
+
+            <label for="email" class="form-label mt-3 font-custom">Email<sup class="text-danger">*</sup></label>
+            <input type="email" class="form-control rounded-0" placeholder="Email" id="email" required />
+
+            <label for="phone" class="form-label mt-3 font-custom">Phone<sup class="text-danger">*</sup></label>
+            <input type="number" class="form-control rounded-0" placeholder="Phone" id="number" required />
+
+            <!--code outsourced starts-->
+            <div class="g-recaptcha mt-3" data-sitekey="6Lel4Z4UAAAAAOa8LO1Q9mqKRUiMYl_00o5mXJrR"></div>
+            <!--code outsourced ends-->
+          </div>
+
+          <div class="col">
+            <label for="file" class="form-label mt-3 font-custom">Upload file</label>
+            <!-- custom file input without bootstrap -->
+            <div class="custom-input">
+              <input type="file" id="file" />
+            </div>
+
+            <div class="form-text">File Size limit : 5MB, And File Supported .doc, .docx, .pdf</div>
+
+            <label for="message" class="form-label mt-4 font-custom">Message<sup class="text-danger">*</sup></label>
+            <textarea
+              id="message"
+              class="form-control rounded-0"
+              style="min-height: 100px; resize: none"
+              placeholder="Message"
+              required></textarea>
+
+            <div class="checkbox mt-4">
+              <label class="form-text fw-bold"
+                ><input type="checkbox" value="i-accept" /> I have read and accept the Privacy Policy<sup
+                  class="text-danger"
+                  required
+                  >*</sup
+                ></label
+              >
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-custom mt-5 py-2 hover-overlay">Send Message</button>
+      </form>
+    </div>
+
+    <script src="assets/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+  </body>
+</html>
