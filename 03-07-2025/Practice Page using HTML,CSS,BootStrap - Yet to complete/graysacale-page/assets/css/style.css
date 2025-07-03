@@ -1,0 +1,97 @@
+:root {
+  --primaryColor: #98a7b1;
+}
+body {
+  font-family: "Nunito", sans-serif !important;
+}
+* {
+  box-sizing: border-box !important;
+}
+
+.custom-Navbar{
+  background-color: white;
+}
+.custom-Navbar-color.newColor{
+  color: black !important;
+}
+
+.custom-txt {
+  /* color: var(--primaryColor) ; */
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.custom-bg {
+  /* background-image: url(/assets/bg-masthead.jpg) !important;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover; */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%),
+    url("/graysacale-page/assets/images/bg-masthead.jpg") center/cover no-repeat;
+  z-index: 100;
+  margin-top: -145px;
+}
+
+.custom-heading1 {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6.5rem !important;
+  letter-spacing: 12.8px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-clip: text;
+  background-repeat: repeat;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-heading2 {
+}
+
+.custom-btn {
+  padding: 20px 32px;
+  background-color: rgb(100, 161, 157);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 2.4px;
+  font-size: small;
+  display: inline-block;
+}
+.custom-btn:hover {
+  background-color: rgb(85, 137, 133);
+  color: #fff;
+}
+
+.custom-section {
+  padding-top: 160px;
+  background: linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.custom-section a {
+  color: #64a19d;
+}
+
+.custom-section a:hover {
+  color: #50817e;
+}
+
+.custom-project {
+  padding: 160px 0;
+}
+
+.custom-border {
+  border-left: 0.5rem solid rgb(100, 161, 157);
+  padding-left: 32px;
+}
+
+.custom-padding {
+  padding: 0px 80px;
+}
+
+.custom-project-text {
+  font-size: 14.4px;
+  line-height: 21px;
+}
+
+.custom-bg-color {
+  background-color: black;
+}
