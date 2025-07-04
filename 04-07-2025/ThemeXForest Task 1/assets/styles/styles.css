@@ -1,0 +1,233 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+.custom-header-background {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-bottom: 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  z-index: 8;
+}
+.custom-header-background::before {
+  right: 0;
+  top: -8px;
+  z-index: -1;
+  width: 100%;
+  content: "";
+  height: 102%;
+  position: absolute;
+  background-color: #683bf2;
+  clip-path: polygon(
+    68.385% 28.125%,
+    70.701% 0%,
+    100% 0%,
+    100% 100%,
+    72.264% 100%,
+    72.264% 100%,
+    72.01% 99.755%,
+    71.77% 99.044%,
+    71.545% 97.907%,
+    71.341% 96.382%,
+    71.159% 94.508%,
+    71.002% 92.324%,
+    70.875% 89.867%,
+    70.781% 87.177%,
+    70.721% 84.291%,
+    70.701% 81.25%,
+    70.701% 53.125%,
+    70.701% 53.125%,
+    70.674% 49.07%,
+    70.595% 45.223%,
+    70.468% 41.636%,
+    70.299% 38.36%,
+    70.091% 35.447%,
+    69.848% 32.949%,
+    69.575% 30.915%,
+    69.276% 29.4%,
+    68.956% 28.452%,
+    68.618% 28.125%,
+    68.385% 28.125%
+  );
+}
+.custom-header-background::after {
+  left: 0;
+  z-index: -1;
+  bottom: 8px;
+  width: 70.9%;
+  height: 68%;
+  content: "";
+  position: absolute;
+  background-color: #ece9f6;
+  clip-path: polygon(
+    0% 0%,
+    96.538% 0%,
+    96.538% 0%,
+    96.956% 0.428%,
+    97.352% 1.668%,
+    97.721% 3.651%,
+    98.058% 6.311%,
+    98.358% 9.581%,
+    98.615% 13.392%,
+    98.825% 17.678%,
+    98.981% 22.371%,
+    99.078% 27.404%,
+    99.112% 32.71%,
+    99.112% 81.783%,
+    99.112% 81.783%,
+    99.122% 84.077%,
+    99.152% 86.314%,
+    99.201% 88.475%,
+    99.268% 90.543%,
+    99.352% 92.5%,
+    99.452% 94.328%,
+    99.568% 96.01%,
+    99.699% 97.528%,
+    99.843% 98.864%,
+    100% 100%,
+    100% 100%,
+    97.813% 100%,
+    0% 100%,
+    0% 0%
+  );
+}
+
+.custom-header-top-background {
+  background-color: #683bf2;
+}
+.custom-container {
+  max-width: 75%;
+}
+
+.custom-text-navbar {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.custom-padding {
+  padding: 34px 0 28px;
+}
+
+.custom-a-text {
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+
+.custom-dropdown {
+  top: 70px !important;
+  min-width: 270px !important;
+  padding: 0px !important;
+  border: none !important;
+  background: #ffffff !important;
+  border-radius: 5px !important;
+  transition: all 1s ease-in-out !important;
+  box-shadow: 1px 4px 1px 1px #683bf2 !important;
+}
+.custom-item-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #683bf2;
+}
+
+.custom-header-button {
+  font-weight: 700;
+  padding: 16px 40px;
+
+  border-radius: 100px;
+  white-space: nowrap;
+  background-color: #fff;
+  color: #683bf2;
+  transition: 500ms all ease;
+}
+.custom-header-button a {
+  color: #683bf2;
+  transition: 500ms all ease;
+}
+.custom-header-button:hover {
+  color: #fff !important;
+  background-color: #000;
+  cursor: pointer;
+  transition: 500ms all ease;
+}
+.custom-header-button:hover a {
+  color: #fff;
+  transition: 500ms all ease;
+}
+
+.custom-header-action {
+  gap: 10px !important;
+}
+
+.custom-navbar-button {
+  width: 55px;
+  border: none;
+  height: 55px;
+  border-radius: 100%;
+  background-color: #fff;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+.custom-navbar-button:hover {
+  background-color: #000;
+  cursor: pointer;
+  transition: 500ms all ease;
+  color: #fff !important;
+}
+.custom-navbar-button:hover i {
+  color: #fff !important;
+}
+.custom-dropdown-effect-left {
+  font-size: 17px !important;
+  font-weight: 500 !important;
+  padding: 18px 0px 18px 20px !important;
+}
+.custom-dropdown-effect-left.active{
+    color: #683bf2 !important;
+    background-color: white !important;
+}
+.custom-dropdown-effect-left::before {
+  top: 0px;
+  left: 0px;
+  content: "";
+  position: absolute;
+  transition: all 300ms ease;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+  background-color: #683bf2 !important;
+}
+
+
+@media screen and (max-width:1200px){
+    .custom-container{
+        width: 100% !important;
+    }
+    .custom-header-background::before{
+        background-color: #fff !important;
+        clip-path: none;
+    }
+    .custom-header-background::after{
+        background-color: #fff !important;
+    }
+}
