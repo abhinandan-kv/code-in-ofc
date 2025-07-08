@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/lib/bootstrap-5.0.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Advice</title>
+  </head>
+  <body class="vh-100">
+    <div
+      class="container d-flex justify-content-center align-items-center vw-100 h-75"
+      data-bs-toggle="tooltip"
+      data-bs-placement="right"
+      title="Click &quot Get Advice &quot"
+      id="tooltip">
+      <div class="card" style="width: 18rem">
+        <div class="card-body d-flex flex-column text-center" style="box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.404)">
+          <span
+            id="resultId"
+            class="card-title align-items-center fw-bold text-decoration-underline skeleton skeleton-id"></span>
+          <p id="resultShow" class="card-text align-items-center skeleton skeleton-text"></p>
+          <button id="callBtn" class="btn btn-dark align-items-center" onclick="handleClick()">Get Advice</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>
