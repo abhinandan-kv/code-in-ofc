@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/lib/bootstrap-5.0.2-dist/css/bootstrap.css" />
+  </head>
+  <body>
+    <h2 class="container text-center display-6 mt-3">Holiday finder</h2>
+    <p class="container fs-6 fw-lighter text-center">(US) edition</p>
+    <div class="m-4">
+      <div class="container vw-100 justify-content-center d-flex">
+        <div class="input-group w-50">
+          <label class="input-group-text" for="inputDate" class="">Date</label>
+          <input class="form-control" type="date" name="date" id="inputDate" value="2025-07-09" />
+          <button class="btn btn-dark ms-3 rounded-3" onclick="handleClick()">Click</button>
+        </div>
+      </div>
+      <div id="container" class="container d-flex flex-column w-50 mt-3 border-bottom">
+        <!--Data added here from script-->
+      </div>
+    </div>
+    <script src="assets/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
+</html>
