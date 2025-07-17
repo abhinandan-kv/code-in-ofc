@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "nodemon cli.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
