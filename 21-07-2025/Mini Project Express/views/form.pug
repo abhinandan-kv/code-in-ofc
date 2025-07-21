@@ -1,0 +1,19 @@
+html
+   head
+      script(src="../routes/route.js") 
+      title ToDo List
+   body
+      form(action = "/", method = "POST")
+         div
+            label(for = "name") Name:
+            input(name = "name" value = "username")
+         br
+         div
+            label(for = "work") Work:
+            input(name = "work" value = "Work details")
+         br
+         button(type = "submit") Submit the task
+      
+      button#myButton(onclick="window.location.href='/list-todos'" type="button") Show All tasks
+
+      
