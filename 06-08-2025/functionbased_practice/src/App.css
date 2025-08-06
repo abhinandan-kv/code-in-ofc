@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(77, 77, 77);
+  color: white;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  /* background-color: antiquewhite; */
+  justify-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
