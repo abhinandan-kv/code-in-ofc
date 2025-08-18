@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+}
+
+.single-card {
+  box-shadow: 2px 1px 20px rgba(59, 59, 59, 0.411) !important;
+  min-height: 600px !important ;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 30px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-card:hover {
+  box-shadow: 5px 1px 20px rgb(44, 44, 44) !important;
+}
+.single-card .card-image img {
+  width: 100%;
+  height: 100%;
+}
+.single-card .card-content {
+  padding: 16px;
+}
+.single-card .card-content .card-title {
+  margin-bottom: 0;
+}
+.single-card .card-content .card-title a {
+  color: black;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.single-card .card-content .card-title a:hover {
+  color: rgb(44, 44, 44) !important;
+}
+.single-card .card-content .text {
+  color: black !important;
+  margin-top: 8px;
+}
