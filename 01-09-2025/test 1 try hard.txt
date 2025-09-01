@@ -1,0 +1,262 @@
+// let str = 'deloitte'
+
+// // dloi
+
+// let strArr = str.split('')
+// console.log(strArr)
+
+// let removeDupsArr = []
+
+// // let removeRepetation = 
+
+// function dups(val){
+//     removeDupsArr.forEach((i)=>{
+//       if(val === i){
+//         console.log("val i", i)
+//             return true
+//       }
+//         console.log("val val", val)
+
+//       return false
+//   })
+// }
+
+// strArr.forEach((val)=>{
+//   console.log(val)
+ 
+//   if(dups(val)){
+//     console.log("inside loop")
+//   }
+    
+//     removeDupsArr.push(val)
+
+//   console.log('val found', val)
+// })
+
+
+// console.log(removeDupsArr)
+
+
+
+
+// let str = 'deloitte'
+
+// dloi
+
+// let strArr = str.split('')
+// console.log(strArr)
+
+// let removeDupsArr = []
+
+// function dups(val){
+//     removeDupsArr.forEach((i)=>{
+//         console.log("val -",val, '|||' ,"i-",i)
+//         if(val == i){
+//             return false
+//         }
+//         return true
+//     })
+// }
+
+// strArr.forEach((val)=>{
+//     console.log(val)
+//     if(removeDupsArr.length==0){
+//         removeDupsArr.push(val)
+//     }else {
+//         if(dups(val)){
+//             removeDupsArr.push(val)
+//             console.log('dups true!')
+//         }
+//     }
+// })
+
+// console.log(removeDupsArr)
+
+let str = "deloitte"
+let strArr = str.split('')
+let dupArr =[]
+for(let i=0; i<strArr.length ; i++){
+    // console.log(strArr[i])
+    for(let j=i+1; j<strArr.length ; j++){
+        if(strArr[i]==strArr[j]){
+            // console.log("i-",strArr[i], "j-", strArr[j])
+            dupArr.push(strArr[j])
+        }
+        
+    }
+}
+
+let res = []
+
+function isExists(i){
+    let flag=false;
+    dupArr.forEach((val)=>{
+        if(val == i){
+            // console.log('inside dupArr', val, i)
+            flag = true;
+        }
+    })
+    
+    if(flag==true){
+        return true;
+    }else{
+        return false
+    }
+}
+
+for(let i of strArr){
+    if(!isExists(i)){
+        res.push(i)
+        // console.log('true')
+    }
+    // console.log('false')
+    
+}
+
+// console.log(dupArr)
+// console.log(res)
+const strRes = res.join('')
+console.log(strRes)
+
+// false
+// inside dupArr e e
+// false
+// false
+// false
+// false
+// inside dupArr t t
+// false
+// inside dupArr t t
+// false
+// inside dupArr e e
+// false
+// [ 'e', 't' ]
+// [
+//   'd', 'e', 'l',
+//   'o', 'i', 't',
+//   't', 'e'
+// ]
+
+// removeDupsArr.filter((val)=>{
+//     if(val!=='d'){
+//         console.log("filer",val)
+//     }
+// })
+
+// const res = strArr.find((val)=>{
+//     if(val === 'e'){
+//         console.log('va', val)
+//     }
+// })
+
+
+
+
+
+
+
+
+
+
+//  for(let i of removeDupsArr){
+//         if(i == val){
+//             console.log(val, i)
+//         }
+//                     removeDupsArr.push(i)
+
+        
+//     }
+
+
+
+
+// let str = 'deloitte'
+
+// // dloi
+// let strArr = str.split('')
+// let resArr = []
+ 
+// for(let val of strArr){
+//     for (let i of resArr){
+//         if(i === val ){
+//             break;
+//         }
+//         console.log('i', i)
+        
+
+//     }
+//         resArr.push(val)
+
+//     console.log('val', val)
+// }
+// console.log('resArr', resArr)
+
+
+
+
+
+// let str = 'deloitte'
+
+// // dloi
+// let strArr = str.split('')
+// let resArr = []
+
+
+// // strArr.forEach((val)=>{
+// //     console.log(val)
+// //     resArr.forEach((i)=>{
+// //         if(i===val){
+// //             console.log("if resArr")
+
+// //         }
+// //             resArr.push(i)
+
+// //     })
+
+// // })
+
+// // strArr.forEach((val)=>{
+// //     console.log(val)
+
+
+// // })
+
+
+// console.log(res)
+
+// console.log(resArr)
+
+
+
+
+
+
+// let str = 'deloitte'
+
+// // dloi
+
+// let strArr = str.split('')
+// console.log(strArr)
+
+// let removeDupsArr = []
+
+// for(let i=0; i<strArr.length; i++){
+//     console.log(strArr[i])
+//     for(let j=0; j<strArr.length;j++){
+//         if(strArr[i] !== strArr[j]){
+//             console.log("equal")
+//                 removeDupsArr.push(strArr[i])
+
+            
+//         }
+//     }
+
+// }
+// console.log(removeDupsArr)
+
+
+
+
+
+
+
