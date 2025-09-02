@@ -1,0 +1,80 @@
+// test 1
+
+
+let str = 'deloitte'                                                //O(n) complexity :)
+// dloi
+let strArr = str.split('')
+
+let freq = {}
+let result = ''
+
+for(let val of strArr){
+    freq[val] = (freq[val] || 0) + 1
+}
+
+for(let key in freq){
+    if(freq[key] === 1){
+        result += key 
+    }
+}
+
+console.log(freq)
+
+console.log('result :', result)
+
+
+
+
+// test 2					      	     only a condition addition
+	
+const input = {
+  user: {
+    name: "Alice",
+    contact: {
+      email: "alice@example.com",
+      phone: {
+        mobile: "1234567890",
+        landline: "0112345678"
+      }
+    },
+    preferences: {
+      notifications: {
+        email: true,
+        sms: false
+      },
+      theme: "dark"
+    }
+  },
+  meta: {
+    createdAt: "2025-07-29",
+    verified: true
+  }
+};
+
+let result = {}
+
+function flattenObject(input, parent=''){
+    for(let key in input){
+        const newKey = parent ? `${parent}.${key}` : key
+        
+        const value = input[key]
+        //making it pure dynamic
+        if(typeof value == 'object' && value != null && !Array.isArray(value)){     
+            flattenObject(value, newKey)
+        }else{
+            result[newKey] = value
+        }
+    }
+}
+
+flattenObject(input);
+
+console.log(result)
+
+
+
+
+
+
+
+

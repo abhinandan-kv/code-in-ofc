@@ -1,0 +1,149 @@
+Practical Task - Gamified Learning Platform
+ 
+Need to complete this by today end of the day and also after completing the task attach the source code zip and database in the mail chain.
+Objective: Build a gamified learning platform where users can complete learning modules, earn points, and track progress.
+
+Description:
+>> Frontend (React): Create a user interface to display learning modules, track progress, and display points earned. Implement features to encourage user engagement (e.g., badges, leaderboards).
+
+>> Backend (Node.js): Use Express and MySQL to manage learning modules, user progress, and points. Implement APIs for CRUD operations on learning modules and for tracking and retrieving user progress. Add logic to calculate points and update user progress based on completed modules.
+ 
+Practical Task - Interactive Polling System
+ 
+Need to complete this by today end of the day and also after completing the task attach the source code zip and database in the mail chain.
+ 
+Objective: Develop an interactive polling system where users can create polls, vote, and view results.
+
+Description:
+>> Frontend (React): Create a user interface to create, update, delete, and participate in polls. Implement features to view real-time poll results with visualizations (charts/graphs).
+
+>> Backend (Node.js): Use Express and MySQL / MongoDB to manage poll data and votes. Implement APIs for CRUD operations on polls and for submitting and retrieving votes. Add logic to calculate and display real-time poll results.
+ 
+Practical Task - Expense Management System with Category Insights
+ 
+Need to complete this by today end of the day and also after completing the taskMySQL /  attach the source code zip and database in the mail chain.
+Objective: Create an expense management system that categorizes expenses and provides insights.
+
+Description:
+>> Frontend (React): Develop a user interface to add, update, delete, and display expenses. Implement a dashboard to show categorized expenses and provide insights (e.g., pie charts, monthly trends).
+
+>> Backend (Node.js): Use Express and MySQL / MongoDB to manage expense data. Implement APIs for CRUD operations on expenses. Add logic to categorize expenses, calculate totals per category, and generate insights.
+ 
+Practical Task - Job Application Tracker
+ 
+Need to complete this by today end of the day and also after completing the task attach the source code zip and database in the mail chain.
+Objective: Develop a tool to track job applications, manage application statuses, and schedule follow-ups.
+
+Description:
+>> Frontend (React): Create a user interface to add and manage job applications, track their statuses (e.g., applied, interviewed, offer), and schedule follow-up reminders.
+
+>> Backend (Node.js): Use Express and MySQL / MongoDB to manage job application data. Implement APIs for CRUD operations on applications and reminders. Add logic to track application statuses, schedule follow-ups, and send reminders.
+ 
+ 
+1. Library Management System with Book Borrowing
+Objective: Build a platform to manage books, borrowers, and borrowing history.
+Frontend (React):
+UI to list books, search by author/title, and manage availability.
+Borrow/return books, and show user borrowing history.
+Dashboard for admins to add/update/delete books.
+Backend (Node.js + MySQL):
+CRUD APIs for books and users.
+Borrow/return logic with due dates.
+Track history of issued/returned books.
+ 
+ 
+Online Quiz/Exam System
+Objective: Create an online quiz platform for users to take quizzes and get scores.
+Frontend (React):
+UI to take quizzes (MCQs).
+Show score instantly after submission.
+Leaderboard for top scorers.
+Backend (Node.js + MySQL):
+CRUD APIs for quizzes and questions.
+Logic to calculate score and update user progress.
+Store history of attempts.
+ 
+ 
+Inventory & Order Management System
+Objective: Build a system for managing products and customer orders.
+Frontend (React):
+Add/update/delete products.
+Place orders, view order history.
+Low-stock notifications for admin.
+Backend (Node.js + MySQL):
+CRUD APIs for products and orders.
+Logic to reduce stock on order placement.
+Reports for daily/weekly sales.
+ 
+ 
+Personal Notes & To-Do Manager
+Objective: Users can manage notes and tasks with deadlines.
+Frontend (React):
+Add/edit/delete notes and tasks.
+Mark tasks as completed.
+Filter by pending/completed.
+Backend (Node.js + MySQL):
+CRUD APIs for notes & tasks.
+Due date reminders logic.
+Option to categorize tasks.
+ 
+ 
+Student Attendance & Marks System
+Objective: Track student attendance and marks for courses.
+Frontend (React):
+Teacher panel to mark attendance & upload marks.
+Student panel to view attendance % and marks.
+Dashboard with performance graphs.
+Backend (Node.js + MySQL):
+CRUD APIs for students, attendance, and marks.
+Calculate attendance percentage.
+Generate progress reports.
+ 
+ 
+Donation & Charity Management Platform
+Objective: Manage donations, donors, and campaigns.
+Frontend (React):
+List donation campaigns.
+Donors can contribute & see history.
+Campaign progress bar (target vs collected).
+Backend (Node.js + MySQL):
+CRUD APIs for donors, donations, campaigns.
+Calculate total collected per campaign.
+Generate donor contribution reports.
+ 
+ 
+Bug/Issue Tracking System
+Objective: Track software project issues like Jira.
+Frontend (React):
+Create issues with title, description, priority.
+Assign issues to users.
+Track status (Open, In-Progress, Resolved).
+Backend (Node.js + MySQL):
+CRUD APIs for issues & users.
+Workflow logic for status updates.
+Reports of open vs resolved issues.
+ 
+ 
+Travel Expense Splitter (Group Trip Manager)
+Objective: Friends can split trip expenses fairly.
+Frontend (React):
+Add trip expenses by category.
+Show “who owes whom” summary.
+Export/share expense report.
+Backend (Node.js + MySQL):
+CRUD APIs for trips & expenses.
+Split logic per person.
+Report of balances.
+ 
+ 
+Recruitment & Interview Scheduler
+Objective: Track candidates and schedule interviews.
+Frontend (React):
+Add candidate profiles.
+Schedule interview rounds.
+Track candidate status (Shortlisted, Rejected, Selected).
+Backend (Node.js + MySQL):
+CRUD APIs for candidates & schedules.
+Status change workflow.
+Reports of recruitment pipeline.
+ 
