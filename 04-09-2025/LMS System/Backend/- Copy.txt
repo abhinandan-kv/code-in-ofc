@@ -1,0 +1,12 @@
+PORT='9000'
+
+DB_NAME='LMS_task'
+DB_USER='root'
+DB_PW=''
+DB_DIALECT='mysql'
+DB_HOST='localhost'
+
+JWT_KEY='ba79e9f973690e5282c21185ec4e14aaa0cf9208a4ba7c884621f4e7ccc157ffd4f38fa33be3cb3ac25ed1275ff1c1371d31d86307f2e151d04a06af56047807'
+
+BACKEND_URL='http://localhost:9000'
+FRONTEND_URL='http://localhost:5173'
