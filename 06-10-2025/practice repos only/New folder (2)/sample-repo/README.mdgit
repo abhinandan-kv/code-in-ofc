@@ -1,0 +1,1 @@
+"# github_practice"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin git@github.com:abhinandan-kv/github_practice.gitgit push -u origin main

@@ -1,0 +1,7 @@
+This is a sample text file named one.txt.
+You can use this file to practice reading and writing operations in your code.
+Feel free to modify or add more content as needed.
+
+
+
+Somting is here
