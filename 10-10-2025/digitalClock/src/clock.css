@@ -1,0 +1,37 @@
+.clock-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  backdrop-filter: blur(0.5px);
+  width: 100vw;
+}
+
+.clock {
+  color: #ffffff;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  text-shadow: 3px 3px 5px grey;
+}
+.timezone {
+  color: rgb(226, 226, 226);
+  font-family:Verdana, cursive ;
+  font-style:italic;
+  font-size: .8rem;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  position:fixed;
+  right: 0rem;
+
+}
+
+@media screen and (max-width: 420px){
+  .clock{ font-size: 2rem;
+  }
+  .timezone{
+    font-size: .5rem;
+  }
+  }
