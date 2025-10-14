@@ -1,0 +1,50 @@
+Secure coding practice:
+
+1. Input validation - Basically to validate and sanitize everything(form inputs) before 
+	sending it to database. Use regex in this matter.
+
+2. Access Control - To inforce access control over the system resources, works by checking roles
+	or credentials to grant them authorization.
+
+3. Cryptographic practices - Means using validated alogorithms and libraries to ensure data is 
+	confidential, integral and authentic.
+ 
+4. Encryption - Means to encrpyt sensitive data(like users or dev_secret keys).
+
+5. Logging - Basically to keep a log of each action performed on the server.
+
+6. Automate Code Reviews - Automate code reviews like eslint and all are important.
+
+7. Session Management - Means to protect user data and maintaining application state in web
+	applications by securely generating, storing and invalidating session identifiers.
+	Use strong random sessionIDs, setting secure cookie attribute like httpOnly and secure.
+
+8. Apply Code obfuscation - Means a tool that modifies the code to make it harder for humans to read,
+	while preserving its funcationality, and then test the result to ensure it still works correctly before deploying it.
+	Tools available online.
+
+9. Embracing secure coding - Its basically a mindset means to follow the best practices and security-first mindset into every stage of the software development process.
+
+10. Least privilege principle - This means to give only permissions which are neccessary means read only permission if they are a user coming to someone's blog. 
+
+11. Password Mangement - Means to have a strong password with mix of all character like alphanumeric and special characters and then save using cryptographic hashed passwords.
+
+12. Authentication and Authorization - Authentication means the process of identify users and authorization means to give access to the user that what actions they can perform.
+
+13. Block reflected xss - Xss means a cross-site scripting. To avoid this the above methods can be implemented and can also use a WAF(web application firewall) to filter malicious requests and implement CSP(content security policy) headers to restrict where scripts can be loadled from.
+	And also not to use innerHTML or textContent directly to modify DOM.
+
+14. Output encoding - It converts potentially malicious characters in user input into a safe format before displaying them. Like base64 encoding. React has this in built when inside any jsx curly braces it converts using base64 (eg. < will be converted to &gt).
+
+15. System Configuration - System configuration means setting up hardware, software and networks with security in mind to minimize vulnerablities, and it also involves defining how these componets will interact securely.
+
+16. Threat modeling - Its basically a system design to identify, analyze and prioritizing pottential threats and vulnerabilities in a system to improve security.
+
+17. Vulneability management - Keep software and components (lib, modules, dependencies) updated to latest security features. Have a mechanism for updating all of the code's dependencies regularly. 
+
+18. API documentation - Properly documentation of APIs is neccessary including details on authentications, usage and error handling. 
+
+19. Avoiding shortcuts - This means not to take shortcuts and missing out any of these upper pointers. 
+
+
+
