@@ -1,0 +1,16 @@
+ISSUE - 
+STEPS TO REPRODUCE- 
+
+
+ISSUE - lose of activeState in navbar, same this is happening whenever we are going level3 of nesting data.
+STEPS TO REPRODUCE- Go to risk management-> risk register -> create risk register (or any edit option from list)
+		    Go to reports -> Standard Reports -> Any one Option
+
+ISSUE - navbar not smooth when expanding (vice-versa)
+STEPS TO REPRODUCE- Click option svg top left
+
+
+ISSUE - No bgcolor change onHover navbar
+STEPS TO REPRODUCE- hover on navbar submenus
+
+
